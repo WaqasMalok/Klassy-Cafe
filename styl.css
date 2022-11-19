@@ -1,0 +1,373 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+ * {
+    margin: 0%;
+    padding: 0%;
+ }
+
+ .navbar>nav>ul>li>a {
+    color: black;
+ }
+
+ .navbar>nav>ul>li>a:hover {
+    color: #fb5849;
+ }
+
+ .home {
+    height: 80vh;
+ }
+
+ .home-text {
+    background-image: url(bg/top-left-bg.jpg);
+    background-position: center;
+    height: 100%;
+ }
+
+ .home-text h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 54px;
+ }
+
+ .img-box img {
+    width: 100%;
+    height: 100%;
+ }
+
+ .images1 {
+    animation: home1 20s linear infinite;
+ }
+
+ .images2 {
+    animation: home2 20s linear infinite;
+ }
+
+ .images3 {
+    animation: home3 20s linear infinite;
+ }
+
+ @keyframes home1 {
+    0% {
+       opacity: 1;
+    }
+
+    10% {
+       opacity: 1;
+    }
+
+    20% {
+       opacity: 1;
+    }
+
+    30% {
+       opacity: 1;
+    }
+
+    40% {
+       opacity: 0;
+    }
+
+    50% {
+       opacity: 0;
+    }
+
+    60% {
+       opacity: 0;
+    }
+
+    70% {
+       opacity: 0;
+    }
+
+    80% {
+       opacity: 0;
+    }
+
+    90% {
+       opacity: 0;
+    }
+
+    100% {
+       opacity: 1;
+    }
+ }
+
+ @keyframes home2 {
+    0% {
+       opacity: 0;
+    }
+
+    10% {
+       opacity: 0;
+    }
+
+    20% {
+       opacity: 0;
+    }
+
+    30% {
+       opacity: 1;
+    }
+
+    40% {
+       opacity: 1;
+    }
+
+    50% {
+       opacity: 1;
+    }
+
+    60% {
+       opacity: 1;
+    }
+
+    70% {
+       opacity: 1;
+    }
+
+    80% {
+       opacity: 0;
+    }
+
+    90% {
+       opacity: 0;
+    }
+
+    100% {
+       opacity: 0;
+    }
+ }
+
+ @keyframes home3 {
+    0% {
+       opacity: 1;
+    }
+
+    10% {
+       opacity: 0;
+    }
+
+    20% {
+       opacity: 0;
+    }
+
+    30% {
+       opacity: 0;
+    }
+
+    40% {
+       opacity: 0;
+    }
+
+    50% {
+       opacity: 0;
+    }
+
+    60% {
+       opacity: 0;
+    }
+
+    70% {
+       opacity: 1;
+    }
+
+    71% {
+       opacity: 1;
+    }
+
+    80% {
+       opacity: 1;
+    }
+
+    90% {
+       opacity: 1;
+    }
+
+    100% {
+       opacity: 1;
+    }
+ }
+
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+ /* about section  */
+
+
+
+
+
+
+ .bar-title {
+    color: #fb5849;
+
+ }
+
+ .bar-title::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 1px;
+    background-color: #fb5849;
+    top: 10px;
+    left: 0%;
+ }
+
+ .about-cap img {
+    width: 100%;
+    height: 100%;
+ }
+
+ .about-img::before {
+    content: "";
+    position: absolute;
+    background: #ffffff2d;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: all ease-out 0.2s;
+ }
+
+ .about-tube img {
+    transition: all ease-in-out 0.3s;
+    width: 50px;
+    z-index: 2;
+    cursor: pointer;
+ }
+
+ .about-img {
+    overflow: hidden;
+ }
+
+ .about-tube img:hover {
+    transform: rotate(180deg);
+ }
+
+ .about-img:hover>.about-img-box {
+    transform: scale(1.01);
+    transition: all 0.5s;
+ }
+
+ .about-img:hover.about-img::before {
+    width: 0px;
+    opacity: o;
+ }
+
+ /* our menu our menu our menu our menu our menu our menu 
+our menu our menu our menu our menu our menu our menu 
+our menu our menu  our menu our menu our menu our menu 
+our menu our menu our menu our menu our menu our menu 
+our menu our menu our menu our menu our menu our menu 
+our menu our menu our menu our menu our menu our menu 
+our menu our menu our menu our menu our menu our menu  */
+
+ #our-menu {
+    background-color: #fb584918;
+ }
+
+ .menu-price {
+    background: #fb5849;
+ }
+
+ /* .menu-card{
+   height: 600px;
+} */
+ .menu-pop {
+    background: #fb5849;
+    height: 5%;
+    padding-top: 20px;
+    transition: all ease-in-out 0.5s;
+ }
+
+ .menu-card:hover .menu-pop {
+    padding: 30px 30px 5px 30px;
+    height: 40%;
+ }
+
+ .chef-title {
+    color: #fb5849;
+ }
+
+ .icon-box {
+    background-color: #fb5849;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+ }
+
+ .icon-box img {
+    cursor: pointer;
+    color: #fff; 
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+ }
+
+ .chef-cards:hover .icon-box,
+ .icon-box img {
+    opacity: 1;
+ }
+
+ .chef-cards:hover {
+    border-color: #fb5849;
+    color: #fb5849;
+ }
+
+ /* conteact fomr  */
+ /* conteact fomr  */
+ /* conteact fomr  */
+ /* conteact fomr  */
+ #contact {
+    background-image: url(bg/reservation-bg.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ .contact-img{ 
+   transform: translatey(-20px);
+   background-color: #fb5849;
+
+ }
+ .phone h3,.email h3{
+   transform: translateY(-5px);
+ }
+ .contact-btn .btn{
+   background-color: #fb5849;
+    
+
+ }
+  .contact-btn .btn:hover{
+   background-color: #fb5849;    
+
+ }  
+ .list-price{
+   background-color: #fb5849;
+   color: #fff;
+ }
+ .nav-item .nav-link{ 
+   color:#fb5849;
+ }
+ .list-price:hover{ 
+   background-color: #fff;
+ }
+ .list-price:hover a{
+   color: #fb5849; 
+ }
+ .footer-box{
+   background-color: #fb5849;
+   
+}
