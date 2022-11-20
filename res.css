@@ -2,4 +2,9 @@
     .hero-img{
         display:none;
     }
+
+.bar-title::before { 
+    top: 12px;
+    left: 42%;
+}
 }
