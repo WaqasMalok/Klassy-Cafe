@@ -7,6 +7,9 @@
 .header, .home, #about, #our-menu, #our-chef , #contact, #list, #footer{
    min-width: 350px;
 } 
+.header{
+   background-color: #f8f9fa;
+}
  .navbar>nav>ul>li>a {
     color: black;
  }
@@ -276,17 +279,17 @@ our menu our menu our menu our menu our menu our menu  */
  /* .menu-card{
    height: 600px;
 } */
- /* .menu-pop {
+  /* .menu-pop {
     background: #fb5849;
     height: 5%;
     padding-top: 20px;
     transition: all ease-in-out 0.5s;
- }
+ } */
 
- .menu-card:hover .menu-pop {
+ /* .menu-card:hover .menu-pop {
     padding: 30px 30px 5px 30px;
     height: 40%;
- }
+ } */
 
  .chef-title {
     color: #fb5849;
@@ -319,7 +322,7 @@ our menu our menu our menu our menu our menu our menu  */
  .chef-cards:hover {
     border-color: #fb5849;
     color: #fb5849;
- } */
+ } 
 
  /* conteact fomr  */
  /* conteact fomr  */
