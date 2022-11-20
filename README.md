@@ -1,2 +1,2 @@
 ﻿# Klassy-Cafe
-ts-klassy-cafe.pages.dev
+https://ts-klassy-cafe.pages.dev
