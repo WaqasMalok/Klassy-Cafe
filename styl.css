@@ -358,3 +358,14 @@ our menu our menu our menu our menu our menu our menu  */
    background-color: #fb5849;
    
 }
+.footer__icon .fas{
+font-size: 23px;
+cursor: pointer;
+transition: all 0.5s;
+padding: 15px;
+border-radius: 100px;
+}
+.footer__icon .fas:hover{
+ background-color: #fff;
+ color:#fb5849;
+   }
