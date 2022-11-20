@@ -265,18 +265,18 @@ our menu our menu our menu our menu our menu our menu
 our menu our menu our menu our menu our menu our menu 
 our menu our menu our menu our menu our menu our menu  */
 
- #our-menu {
+ /* #our-menu {
     background-color: #fb584918;
  }
 
  .menu-price {
     background: #fb5849;
- }
+ } */
 
  /* .menu-card{
    height: 600px;
 } */
- .menu-pop {
+ /* .menu-pop {
     background: #fb5849;
     height: 5%;
     padding-top: 20px;
@@ -319,7 +319,7 @@ our menu our menu our menu our menu our menu our menu  */
  .chef-cards:hover {
     border-color: #fb5849;
     color: #fb5849;
- }
+ } */
 
  /* conteact fomr  */
  /* conteact fomr  */
@@ -366,6 +366,9 @@ color: #fff;
  }
  .list-price:hover a{
    color: #fb5849; 
+ }
+ #footer{
+   background-color: #fb5849;
  }
  .footer-box{
    background-color: #fb5849;
