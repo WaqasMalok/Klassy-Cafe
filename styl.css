@@ -4,7 +4,9 @@
     margin: 0%;
     padding: 0%;
  }
-
+.header, .home, #about, #our-menu, #our-chef , #contact, #list, #footer{
+   min-width: 350px;
+} 
  .navbar>nav>ul>li>a {
     color: black;
  }
@@ -324,10 +326,12 @@ our menu our menu our menu our menu our menu our menu  */
     background-size: cover;
 
  }
- .contact-img{ 
+ .contact-card .fas{ 
    transform: translatey(-20px);
    background-color: #fb5849;
-
+padding: 25px;
+border-radius: 100px;
+color: #fff;
  }
  .phone h3,.email h3{
    transform: translateY(-5px);
@@ -343,6 +347,9 @@ our menu our menu our menu our menu our menu our menu  */
  }  
  .list-price{
    background-color: #fb5849;
+   color: #fff;
+ }
+ .list-price a{
    color: #fff;
  }
  .nav-item .nav-link{ 
@@ -361,7 +368,7 @@ our menu our menu our menu our menu our menu our menu  */
 .footer__icon .fas{
 font-size: 23px;
 cursor: pointer;
-transition: all 0.5s;
+transition: all 0.8s;
 padding: 15px;
 border-radius: 100px;
 }
