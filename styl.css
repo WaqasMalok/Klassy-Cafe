@@ -293,21 +293,27 @@ our menu our menu our menu our menu our menu our menu  */
  }
 
  .icon-box {
-    background-color: #fb5849;
+    background-color: #1c1c1caf;
     opacity: 0;
     transition: all 0.5s ease-in-out;
  }
 
- .icon-box img {
+ .icon-box .fas {
     cursor: pointer;
     color: #fff; 
     opacity: 0;
     transition: all 0.5s ease-in-out;
+    font-size: 25px;
+    margin: 10px;
  }
 
  .chef-cards:hover .icon-box,
- .icon-box img {
+ .icon-box .fas {
     opacity: 1;
+ }
+ .chef-cards:hover .icon-box,
+ .icon-box .fas:hover {
+   color: #fb5849; 
  }
 
  .chef-cards:hover {
